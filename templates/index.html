@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Hand Tracking with Flask</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='Logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div>
+        <img class="Logo" src="{{ url_for('static', filename='My_Logo.jpg') }}" alt="My Logo">
+        <h1>Hand Tracking with Flask</h1>
+    </div>
+    <br><br>
+    <img src="{{ url_for('video_feed') }}" alt="Hand Tracking">    
+</body>
+</html>
