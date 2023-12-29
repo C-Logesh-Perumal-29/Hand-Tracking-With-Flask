@@ -62,3 +62,32 @@ Open a web browser and go to http://localhost:5000 to access the application.
       - Processes each frame using MediaPipe Hands to detect hand landmarks.
     
       - Draws hand landmarks and connections on the frame.
+   
+## MediaPipe
+
+  - MediaPipe is an open-source library developed by Google that provides solutions for various computer vision tasks, including hand tracking.
+  - The MediaPipe Hand Tracking module specifically focuses on detecting and tracking the movement and gestures of hands in real-time through computer vision techniques.
+
+## Key Features:
+
+**Real-Time Hand Detection:**
+
+  - MediaPipe Hand Tracking allows for the real-time detection of hands in images or video streams.
+
+**21-Point Hand Landmarks:**
+
+  - The library provides a robust model capable of identifying 21 specific points on the hand, including landmarks such as fingers, knuckles, and palm keypoints.
+    
+**Multi-Hand Tracking:**
+
+  - It supports tracking multiple hands simultaneously, making it suitable for applications where interactions with multiple hands are essential.
+
+**Integration with Other MediaPipe Modules:**
+
+  - MediaPipe provides a modular structure, and the Hand Tracking module can be easily integrated with other modules for tasks like face detection, pose estimation, and more.
+
+## Use Cases
+
+  - Gesture Recognition
+  - Sign Language Recognition
+  - Human-Computer Interaction
