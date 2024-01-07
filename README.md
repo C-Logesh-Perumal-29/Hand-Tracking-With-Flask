@@ -91,3 +91,7 @@ Open a web browser and go to http://localhost:5000 to access the application.
   - Gesture Recognition
   - Sign Language Recognition
   - Human-Computer Interaction
+
+## Credits:
+
+  > 👉 **©️ Credits** goes to the **owner** of `all images`. _Thank You_ for all the _**Image Creaters**_ to `done this amazing project` 🤝...
